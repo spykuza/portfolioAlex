@@ -36,7 +36,7 @@ nav{
 	padding-bottom: 10px;
 }
 
-.menu li.active{
+.menu li:hover{
 	border-bottom: 2px solid #000000;
 }
 
@@ -274,13 +274,76 @@ h2:after{
     background: url('') no-repeat center;
     background-color: #fff;
 }
+#portfolio button{
+	margin: 0 auto;
+}
 
 
+.stats{
+	background: url(../img/statsBg.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	display: flex;
+	justify-content: space-evenly;
+	color: #ffffff;
+	margin-top: 100px;
+}
+.counter h6{
+	font-size: 30px;
+	margin-bottom: 100px;
+}
+.count{
+	font-size: 100px;
+	text-align: center;
+	margin-top: 60px;
+}
 
 
-
+#contact{
+	margin-top: 120px;
+}
+#contact input{
+	width: 570px;
+	border: none;
+	border-bottom: 1px solid #000000;
+	margin-bottom: 50px;
+}
+#contact textarea{
+	width: 100%;
+	height: 190px;
+	border: none;
+	border-bottom: 1px solid #000;
+}
+#contact form{
+	text-align: center;
+}
 .submitbtn{
-	position: relative;
+	margin-top: 40px;
+}
+
+
+footer{
+	background-color: #212121;
+	display: flex;
+	justify-content: space-between;
+	padding: 32px 0;
+	margin-top: 90px;
+}
+.social a{
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+	color: #ffffff;
+	padding: 3px;
+	margin-right: 10px;
+}
+footer p{
+	color: #ffffff;
+}
+footer>a{
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+	background-color: #fff;
+	padding: 3px;
 }
 
 
